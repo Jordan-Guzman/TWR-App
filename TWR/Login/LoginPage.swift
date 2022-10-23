@@ -11,7 +11,9 @@ struct LoginPage: View {
     var body: some View {
         ZStack {
             Color.blue.ignoresSafeArea()
-            Image("Logo")
+            Image("Logo").position(x:UIScreen.main.bounds.width/2,
+                y:UIScreen.main.bounds.height/5
+             )
         }
     }
 }
