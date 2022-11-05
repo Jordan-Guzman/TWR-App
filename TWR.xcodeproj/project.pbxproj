@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28FC1E842916DD4C0061B13E /* QRSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 28FC1E832916DD4C0061B13E /* QRSwift */; };
 		28FC75692905E06D005EA496 /* TWRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FC75682905E06D005EA496 /* TWRApp.swift */; };
 		28FC756B2905E06D005EA496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FC756A2905E06D005EA496 /* ContentView.swift */; };
 		28FC756D2905E06E005EA496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FC756C2905E06E005EA496 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FC1E842916DD4C0061B13E /* QRSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = TWR;
+			packageProductDependencies = (
+				28FC1E832916DD4C0061B13E /* QRSwift */,
+			);
 			productName = TWR;
 			productReference = 28FC75652905E06D005EA496 /* TWR.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 28FC755C2905E06D005EA496;
+			packageReferences = (
+				28FC1E822916DD4C0061B13E /* XCRemoteSwiftPackageReference "QRSwift" */,
+			);
 			productRefGroup = 28FC75662905E06D005EA496 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28FC1E822916DD4C0061B13E /* XCRemoteSwiftPackageReference "QRSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chrisamanse/QRSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28FC1E832916DD4C0061B13E /* QRSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28FC1E822916DD4C0061B13E /* XCRemoteSwiftPackageReference "QRSwift" */;
+			productName = QRSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28FC755D2905E06D005EA496 /* Project object */;
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "qrswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chrisamanse/QRSwift.git",
+      "state" : {
+        "revision" : "6c23db712f5d34f00abc6007569b1fe8f278341b",
+        "version" : "0.4.1"
+      }
+    }
+  ],
+  "version" : 2
+}
